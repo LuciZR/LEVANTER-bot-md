@@ -60,7 +60,7 @@ module.exports = {
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
   APPROVE: (process.env.APPROVE || '').trim(),
   ANTI_DELETE: (process.env.ANTI_DELETE || 'null').trim(),
-  PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'null',
+  PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'https://telegra.ph/file/1af80a8e1aec29a5f44de.mp4 ░▒▓█ • ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴅᴀɴɢᴇʀ ᴢᴏɴᴇ • █▓▒░',
   DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE
     ? toBool(process.env.DISABLE_START_MESSAGE)
     : false,
